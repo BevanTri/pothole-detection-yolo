@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# YOLO / training output
+runs/
+*.pt
+*.onnx
+*.engine
+results.csv
+
+# Dataset besar (download via Kaggle, jangan push)
+datasets/
+!datasets/pothole/data.yaml
+!datasets/README.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Colab / Drive
+.colab/

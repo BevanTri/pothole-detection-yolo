@@ -1,0 +1,6 @@
+# Local training — RTX 4050 6GB Laptop
+# Install torch CUDA dulu (jangan via file ini):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+ultralytics
+roboflow
+opencv-python

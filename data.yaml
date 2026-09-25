@@ -1,0 +1,11 @@
+# Template data.yaml untuk training YOLO pothole
+# Taruh di datasets/pothole/data.yaml (Colab) atau datasets/data.yaml (lokal)
+# Ganti path sesuai lokasi datasetmu di Colab.
+
+path: /content/pothole/datasets/pothole
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: pothole
