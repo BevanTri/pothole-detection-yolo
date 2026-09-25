@@ -6,7 +6,7 @@
 #   test/images/*.jpg   test/labels/*.txt (opsional)
 #   data.yaml (file ini)
 
-path: datasets/pothole
+path: datasets/pothole/dataset
 train: train/images
 val: valid/images
 test: test/images
