@@ -1,0 +1,15 @@
+# Local dataset config — taruh di datasets/pothole/data.yaml
+# Struktur yang diharapkan:
+# datasets/pothole/
+#   train/images/*.jpg  train/labels/*.txt
+#   valid/images/*.jpg  valid/labels/*.txt
+#   test/images/*.jpg   test/labels/*.txt (opsional)
+#   data.yaml (file ini)
+
+path: datasets/pothole
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: pothole

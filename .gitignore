@@ -14,9 +14,11 @@ runs/
 results.csv
 
 # Dataset besar (download via Kaggle, jangan push)
-datasets/
-!datasets/pothole/data.yaml
+datasets/*
 !datasets/README.md
+!datasets/pothole/
+datasets/pothole/*
+!datasets/pothole/data.yaml
 
 # OS / editor
 .DS_Store
