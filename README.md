@@ -6,6 +6,21 @@ Sistem computer vision untuk **mendeteksi jalan berlubang dari video** (MP4/YouT
 
 > Train di dataset publik beranotasi, inference bisa ke video apapun — termasuk video jalan Indonesia milik sendiri. Video YouTube umumnya tanpa GPS, jadi pemetaan butuh koordinat eksternal (bbox ≠ GPS).
 
+## Hasil
+
+| Metrik | Nilai |
+|---|---|
+| Model | YOLOv8n fine-tune |
+| Best epoch | 40 / 42 (early stopping, patience 15) |
+| mAP50 | **0.824** |
+| mAP50-95 | 0.539 |
+| Precision / Recall | 0.80 / 0.75 |
+| Hardware | RTX 4050 6GB Laptop |
+
+Preview deteksi di video jalan sendiri:
+
+![Deteksi pothole](assets/preview_pred.jpg)
+
 ## Fitur
 
 - Training YOLOv8n hemat VRAM (RTX 4050 6GB / Colab T4)
