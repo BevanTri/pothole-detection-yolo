@@ -14,6 +14,7 @@ runs/
 results.csv
 
 # Dataset besar (download via Kaggle, jangan push)
+*.zip
 datasets/*
 !datasets/README.md
 !datasets/pothole/
